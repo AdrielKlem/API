@@ -2,6 +2,6 @@ const express = require("express");
 
 const app = express();
 
-const PORT = 3333; //Porta para localizaar
+const PORT = 3333; // Door to localize 
 
-app.listen(PORT, () => console.log(`Server is running on Port ${PORT}`));
+app.listen(PORT/* Waiter */, () => console.log(`Server is running on Port ${PORT}`));
