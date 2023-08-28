@@ -1,0 +1,14 @@
+{
+  "name": "API",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Adriel Klem",
+  "license": "ISC",
+  "description": "Meu primeiro API desenvolvida no programa Explorer da RocketSeat",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
