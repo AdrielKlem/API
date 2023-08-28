@@ -1,11 +1,12 @@
 const express = require("express");
 
+const routes = require("./routes");
+
+
 const app = express();
+app.use(express.json());
 
-app.post("/users", (request, response) => {
-
-    response.send("Você chamou o POST")
-});
+app.use(routes);
 
 const PORT = 3333; // Door to localize 
 
