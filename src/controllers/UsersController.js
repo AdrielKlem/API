@@ -44,7 +44,7 @@ class UsersController {
         user.email = email ?? user.email;
         
         if (password && !old_password) {
-            throw new AppError("Você precsa informar a senha antia para defniir a nova senha");
+            throw new AppError("Você precsa informar a senha antes para defniir a nova senha");
         }
 
         if (password && old_password) {
